@@ -73,7 +73,7 @@ https://app.thousandeyes.com/account-settings/users-roles/
 
   - This file will contain your environment variables in the format KEY=VALUE.
     
-  - The KEY will be set to `BEARER_TOKEN` and VALUE as `OAuth Bearer Token`
+  - The KEY will be `BEARER_TOKEN` and VALUE as `OAuth Bearer Token` you generated
 
   - We will store `OAuth Bearer Token` in the .env file
 
