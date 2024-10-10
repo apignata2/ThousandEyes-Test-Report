@@ -60,9 +60,11 @@ pip install -r requirements.txt
 https://app.thousandeyes.com/account-settings/users-roles/
 ```
   Create an OAuth Bearer Token
+  
   ﻿<img width="960" alt="image" src="https://github.com/user-attachments/assets/14515621-0008-4799-9d19-42da1429385d">
  
   Copy the Token and store in a secure location
+  
   ![image](https://github.com/user-attachments/assets/6b5bb022-aceb-49dc-802c-b6d833f62ac9)
 
 2. Create a .env File
@@ -74,6 +76,7 @@ https://app.thousandeyes.com/account-settings/users-roles/
   - We will store `OAuth Bearer Token` in the .env file
 
   Example: 
+  
   <img width="413" alt="image" src="https://github.com/user-attachments/assets/9df3e779-d501-4e0f-b407-460a4fd3e14e">
 
   
