@@ -460,6 +460,7 @@ def calculate_usage_manual(tests):
     :param tests:
     :return: tests with cost calculated
     """
+    # Units added as per TE cost calculation page
     Units = {
 
         "Agent_to_Server": {"CloudAgent": 5, "EntAgent": 2.5},
