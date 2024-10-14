@@ -100,3 +100,6 @@ Run the script:
 ```
 python3 main.py
 ```
+## Version
+
+1.0.0 (Oct 2024) - Intial Release
