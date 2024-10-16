@@ -1,5 +1,7 @@
 # ThousandEyes-Test-Report
 
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/apignata2/ThousandEyes-Test-Report)
+
 This script leverages [ThousandEyes v7 REST APIs](https://developer.cisco.com/docs/thousandeyes/v7) to pull detailed information from a ThousandEyes account and formats it into a comprehensive CSV file for Cloud and Enterprise Agent Tests. This script aims to streamline the process of extracting and analyzing ThousandEyes test data, reducing the time and effort required to gather and analyze network performance data for better monitoring and optimization.
 
 ## Sample Output:
