@@ -25,7 +25,7 @@ This script leverages [ThousandEyes v7 REST APIs](https://developer.cisco.com/do
 
 Clone the repo
 ```bash
-git clone https://wwwin-github.cisco.com/apignata/ThousandEyes-Health-Check.git
+git clone https://github.com/apignata2/ThousandEyes-Test-Report.git
 ```
 
 Set up a Python venv
