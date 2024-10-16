@@ -5,7 +5,8 @@
 This script leverages [ThousandEyes v7 REST APIs](https://developer.cisco.com/docs/thousandeyes/v7) to pull detailed information from a ThousandEyes account and formats it into a comprehensive CSV file for Cloud and Enterprise Agent Tests. This script aims to streamline the process of extracting and analyzing ThousandEyes test data, reducing the time and effort required to gather and analyze network performance data for better monitoring and optimization.
 
 ## Sample Output:
-﻿<img width="1354" alt="image" src="https://github.com/user-attachments/assets/bdb28284-fd81-496d-852a-ca9cff497497">
+﻿![image](https://github.com/user-attachments/assets/25188583-31e6-4b7b-a0c2-2ca81f07d8f2)
+
 
     Primary Language: Python 3.x
     Dependencies (Python Libraries): 
@@ -63,11 +64,13 @@ https://app.thousandeyes.com/account-settings/users-roles/
 ```
   Create an OAuth Bearer Token
   
-  ﻿<img width="960" alt="image" src="https://github.com/user-attachments/assets/14515621-0008-4799-9d19-42da1429385d">
+  ![image](https://github.com/user-attachments/assets/12e3dc90-9e41-4ae6-bab6-597b5a4eb8f2)
+
  
   Copy the Token and store in a secure location
   
-  ![image](https://github.com/user-attachments/assets/6b5bb022-aceb-49dc-802c-b6d833f62ac9)
+  ![image](https://github.com/user-attachments/assets/840c43c9-5372-41d6-bcc1-1bf258b63fba)
+
 
 2. Create a .env File
 
@@ -81,7 +84,8 @@ https://app.thousandeyes.com/account-settings/users-roles/
 
   Example: 
   
-  <img width="413" alt="image" src="https://github.com/user-attachments/assets/9df3e779-d501-4e0f-b407-460a4fd3e14e">
+  ![image](https://github.com/user-attachments/assets/e6399fa9-d69d-44ea-b68b-2a551719c706)
+
 
   
 
@@ -90,10 +94,12 @@ https://app.thousandeyes.com/account-settings/users-roles/
 - The script will pull the default account group, if no name is set
 - You can confirm account group in ThousandEyes by checking the image below
 
-<img width="309" alt="image" src="https://github.com/user-attachments/assets/673ec14d-d42c-458e-a7a2-33d9e6fd930d">
+![image](https://github.com/user-attachments/assets/425ecda7-ee5a-4334-b323-e5ac89bf25bc)
+
 
 - To change the account group name, set the variable `Account_Group_Name` in the python code
-<img width="345" alt="image" src="https://github.com/user-attachments/assets/77b0fa52-a669-4813-b0bc-10db4dfae212">
+![image](https://github.com/user-attachments/assets/40e053c4-adb0-4dac-817f-c71e100b3a12)
+
 
 ## Usage
 
