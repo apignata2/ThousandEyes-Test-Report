@@ -5,7 +5,7 @@
 This script leverages [ThousandEyes v7 REST APIs](https://developer.cisco.com/docs/thousandeyes/v7) to pull detailed information from a ThousandEyes account and formats it into a comprehensive CSV file for Cloud and Enterprise Agent Tests. This script aims to streamline the process of extracting and analyzing ThousandEyes test data, reducing the time and effort required to gather and analyze network performance data for better monitoring and optimization.
 
 ## Sample Output:
-﻿[![image](https://github.com/user-attachments/assets/25188583-31e6-4b7b-a0c2-2ca81f07d8f2)](https://github.com/apignata2/ThousandEyes-Test-Report/blob/main/images/TE-Test-Report-CSV.png)
+﻿![image](https://github.com/apignata2/ThousandEyes-Test-Report/blob/main/images/TE-Test-Report-CSV.png?raw=true)
 
 
     Primary Language: Python 3.x
@@ -64,12 +64,12 @@ https://app.thousandeyes.com/account-settings/users-roles/
 ```
   Create an OAuth Bearer Token
   
-  [![image](https://github.com/user-attachments/assets/12e3dc90-9e41-4ae6-bab6-597b5a4eb8f2)](https://github.com/apignata2/ThousandEyes-Test-Report/blob/main/images/TE-Test-Report-Create-OAuth-Token.png?raw=true)
+  ![image](https://github.com/apignata2/ThousandEyes-Test-Report/blob/main/images/TE-Test-Report-Create-OAuth-Token.png?raw=true)
 
  
   Copy the Token and store in a secure location
   
-  [![image](https://github.com/user-attachments/assets/840c43c9-5372-41d6-bcc1-1bf258b63fba)](https://github.com/apignata2/ThousandEyes-Test-Report/blob/main/images/TE-Test-Report-Copy-OAuth.png?raw=true)
+  ![image](https://github.com/apignata2/ThousandEyes-Test-Report/blob/main/images/TE-Test-Report-Copy-OAuth.png?raw=true)
 
 
 2. Create a .env File
@@ -84,7 +84,7 @@ https://app.thousandeyes.com/account-settings/users-roles/
 
   Example: 
   
-  [![image](https://github.com/user-attachments/assets/e6399fa9-d69d-44ea-b68b-2a551719c706)](https://github.com/apignata2/ThousandEyes-Test-Report/blob/main/images/TE-Test-Report-Token-Variable.png?raw=true)
+  ![image](https://github.com/apignata2/ThousandEyes-Test-Report/blob/main/images/TE-Test-Report-Token-Variable.png?raw=true)
 
 
   
@@ -94,11 +94,10 @@ https://app.thousandeyes.com/account-settings/users-roles/
 - The script will pull the default account group, if no name is set
 - You can confirm account group in ThousandEyes by checking the image below
 
-[![image](https://github.com/user-attachments/assets/425ecda7-ee5a-4334-b323-e5ac89bf25bc)
-](https://github.com/apignata2/ThousandEyes-Test-Report/blob/main/images/TE-Test-Report-Account-Group.png?raw=true)
+![image](https://github.com/apignata2/ThousandEyes-Test-Report/blob/main/images/TE-Test-Report-Account-Group.png?raw=true)
 
 - To change the account group name, set the variable `Account_Group_Name` in the python code
-[![image](https://github.com/user-attachments/assets/40e053c4-adb0-4dac-817f-c71e100b3a12)](https://github.com/apignata2/ThousandEyes-Test-Report/blob/main/images/TE-Test-Report-Account-Group-Variable.png?raw=true)
+![image](https://github.com/apignata2/ThousandEyes-Test-Report/blob/main/images/TE-Test-Report-Account-Group-Variable.png?raw=true)
 
 
 ## Usage
