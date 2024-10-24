@@ -15,7 +15,7 @@ or implied.
 __author__ = "Andrew Pignataro, Kalai Shanmugam"
 __contributors__ = "Mark McBride"
 __email__ = "apignata@cisco.com, kmurugap@cisco.com, markmcbr@cisco.com"
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 __copyright__ = "Copyright (c) 2024 Cisco and/or its affiliates."
 __license__ = "Cisco Sample Code License, Version 1.1"
 
@@ -24,6 +24,7 @@ import requests
 import csv
 from dotenv import load_dotenv
 import os
+from datetime import date
 
 # Load environment variable from .env file
 load_dotenv()
@@ -429,12 +430,12 @@ def convert_to_csv(te_dict):
     """
 
     fieldnames = list(te_dict[0].keys())
-    with open('te_report.csv', 'w', newline="") as file:
+    with open(f'te_report_{date.today()}.csv', 'w', newline="") as file:
         writer = csv.DictWriter(file, fieldnames=fieldnames)
         writer.writeheader()
         for row in te_dict:
             writer.writerow(row)
-    print("OUTPUT saved in te_report.csv file successfully")
+    print(f"OUTPUT saved in te_report_{date.today()}.csv file successfully")
 
 
 def round_num(num):
