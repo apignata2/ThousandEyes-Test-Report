@@ -86,8 +86,15 @@ https://app.thousandeyes.com/account-settings/users-roles/
   
   ![image](https://github.com/apignata2/ThousandEyes-Test-Report/blob/main/images/TE-Test-Report-Token-Variable.png?raw=true)
 
+ (Optional) Set the file path of the .env file 
 
-  
+ Windows example:
+
+ ![image](https://github.com/apignata2/ThousandEyes-Test-Report/blob/main/images/TE-Test-Report-Load-Dotenv-Windows.png)
+
+ Mac example:
+
+ ![image](https://github.com/apignata2/ThousandEyes-Test-Report/blob/main/images/TE-Test-Report-Load-Dotenv-Mac.png)
 
 3. (Optional) Set Account Group Name
 
